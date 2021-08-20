@@ -11,8 +11,7 @@ public class LoginStepDefinition extends CommonMethods {
     @Given("navigate to MoneyGaming login page")
     public void navigate_to_MoneyGaming_login_page() {
        setUp();
-
-    }
+          }
 
     @When("click the first join now on login page")
     public void click_the_first_join_now_on_login_page() {

@@ -19,7 +19,7 @@ public class LoginPage extends CommonMethods {
     @FindBy(xpath ="//input[@name='map(lastName)']")
     public WebElement lastName;
 
-    @FindBy(id="checkbox")
+    @FindBy(xpath="//input[@id='checkbox'][3]")
     public WebElement checkBox;
 
     @FindBy(id="form")

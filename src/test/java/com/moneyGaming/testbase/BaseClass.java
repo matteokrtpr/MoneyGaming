@@ -25,10 +25,10 @@ public class BaseClass {
         switch (ConfigsReader.getPropertyValue("browser").toLowerCase()) {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
-                ChromeOptions chromeOptions=new ChromeOptions();
-                chromeOptions.setHeadless(true);
+                //ChromeOptions chromeOptions=new ChromeOptions();
+               // chromeOptions.setHeadless(true);
 
-                driver = new ChromeDriver(chromeOptions);
+                driver = new ChromeDriver();
                 break;
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
