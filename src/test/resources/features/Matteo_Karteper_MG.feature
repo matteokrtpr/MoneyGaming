@@ -5,7 +5,7 @@ Feature: Create a valid Password
     Then Check the password that is "<ValidMessage>"
 
     Examples:
-    |Password    |ValidMessage                                             |
+    |Password    |ValidMessage                                                |
     |Matt        |Password should be at least 6 characters                    |
     |Matteo      |Password should be at least 1 number and 1 special character|
     |Matteo1!    |Please confirm the password                                 |
